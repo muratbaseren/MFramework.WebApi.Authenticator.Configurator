@@ -5,10 +5,35 @@
     <RootNamespace>webapi_authenticator_helper</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>MFramework.WebApi.Authenticator.Configurator</PackageId>
+    <Title>MFramework.WebApi.Authenticator.Configurator</Title>
+    <Authors>muratbaseren,codeove</Authors>
+    <Product>MFramework.WebApi.Authenticator.Configurator</Product>
+    <Description>Web API Basic and Bearer Authentication configurator. Also, SwaggerGen configurator.</Description>
+    <PackageProjectUrl>https://github.com/muratbaseren/webapi-authenticator-helper</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/muratbaseren/webapi-authenticator-helper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>webapi,configurator,basic authentication,jwt,bearer authentication,swaggergen,token generator</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 	<ItemGroup>

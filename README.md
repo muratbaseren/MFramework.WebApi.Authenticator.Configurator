@@ -1,1 +1,1 @@
-# webapi-authenticator-helper
+# MFramework.WebApi.Authenticator.Configurator
