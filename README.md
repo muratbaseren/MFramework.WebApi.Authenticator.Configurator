@@ -6,6 +6,13 @@ It is a library that facilitates the settings that need to be made for .NET Web 
 - SwaggerGen Configurator for Basic and Bearer Auth
 - Token Generator
 
+## Nuget Install
+[MFramework.WebApi.Authenticator.Configurator](https://www.nuget.org/packages/MFramework.WebApi.Authenticator.Configurator)
+
+```ps
+Install-Package MFramework.WebApi.Authenticator.Configurator
+```
+
 ## Basic Database EF CodeFirst Setup
 Don't forget the **EntityFrameworkCore...** nuget packages.
 Don't forget the **Add Migration** and **Update-Database** attribute setting.
